@@ -44,6 +44,7 @@ EXTERNAL_APPS = [
     'core',
     'rest_framework',
     'corsheaders',
+    'settings_preview'
 ]  
 INSTALLED_APPS += EXTERNAL_APPS
 

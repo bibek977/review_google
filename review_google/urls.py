@@ -6,4 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name="home"),
     path('api/',include('core.api.urls')),
+    path('settings_api/',include('settings_preview.urls')),
 ]
